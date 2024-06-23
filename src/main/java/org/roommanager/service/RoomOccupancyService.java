@@ -21,7 +21,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class RoomOccupancyService {
     private static final Logger logger = LoggerFactory.getLogger(RoomOccupancyService.class);
-    private final String RESPONSE_MESSAGE = "Usage Premium: %d Premium Revenue: %.2f Euro, Usage Economy: %d  Economy Revenue %.2f Euro" ;
+    private final String RESPONSE_MESSAGE = "Usage Premium: %d, Premium Revenue: %.2f Euro | Usage Economy: %d, Economy Revenue %.2f Euro" ;
 
     /**
      * Optimizes room occupancy based on the given request.
